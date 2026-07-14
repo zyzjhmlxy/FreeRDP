@@ -78,8 +78,7 @@ jobs:
             -DWITH_OPUS=ON `
             -DWITH_URIPARSER=ON `
             -DWITH_KEYBOARD_LAYOUT_FROM_FILE=OFF `
-            -DWITH_TIMEZONE_FROM_FILE=OFF `
-            -WITHOUT_FREERDP_3x_DEPRECATED=OFF
+            -DWITH_TIMEZONE_FROM_FILE=OFF
 
       - name: Build
         run: cmake --build build --config Release --parallel
